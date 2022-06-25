@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #000;
+  line-height: 1.8;
+}
+
+.navbar {
+  background-color: #010101;
+  overflow: hidden;
+  width: 100vw;
+}
+
+.navbar a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ffa211;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.hero {
+  position: relative;
+  width: auto;
+  height: 100vh;
+  background-color: transparent;
+}
+
+video#video {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+.landing-content {
+  padding: 5rem 0rem;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.history {
+  width: 100vw;
+  height: auto;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.employees {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: lightskyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.person {
+  width: 15rem;
+  height: auto;
+}
+
+.team {
+  display: flex;
+  flex-direction: row;
+}
+
+.team .person img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  margin: 0 1rem;
+  border: #fff solid 2px;
+  border-radius: 50%;
+}
+
+.products {
+  position: relative;
+  width: 100vw;
+  height: auto;
+  background-color: #eee;
+}
+
+.products-stuff {
+  padding: 5rem;
+}
+
+.product {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+
+.policies {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #eee;
+}
+
+.policies-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
